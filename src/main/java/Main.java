@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,5 +50,58 @@ public class Main {
 //            default:
 //                System.out.println("число не равно 1, 2, 3");
 //        }
+
+//        String[] forArray = {"ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ", "ВС"};
+//
+//        for (int i = 0; i < forArray.length ; i++) {
+//            System.out.println(i);
+//            System.out.println(forArray[i]);
+//        }
+//        int i = 0;
+
+//        while (true){
+//            i++;
+//            System.out.println(i);
+//            if (i==10){
+//                break;
+//            }
+//        }
+
+//        while (i != 9) {
+//            System.out.println(i);
+//            i = i + 2;
+//            if (i == 20) {
+//                break;
+//            }
+//        }
+//
+//        while (i < 10) {
+//            System.out.println(i);
+//            i = i + 2;
+//        }
+
+//        String whileStr = "abc";
+//
+//        while (whileStr.contains("b")) {
+//            System.out.println(whileStr);
+//            whileStr = "ac";
+//        }
+
+//        String[] foreachArray = {"ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ", "ВС"};
+//        for (String day : foreachArray) {
+//            System.out.println(day);
+//        }
+//
+//        ArrayList<Integer> foreachList = new ArrayList();
+//        foreachList.add(1);
+//        foreachList.add(2);
+//        foreachList.add(3);
+//        foreachList.add(4);
+//        foreachList.add(5);
+//
+//        for (int counter : foreachList) {
+//            System.out.println(counter * 2);
+//        }
     }
 }
+
