@@ -1,4 +1,9 @@
 public class Car {
+
+    public static void wishCar(){
+        System.out.println("I wish car");
+    }
+
     public Car(double engVolume) {
         this.engVolume = engVolume;
         maxSpeed = engVolume * 100;
